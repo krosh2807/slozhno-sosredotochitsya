@@ -5,6 +5,7 @@
 }
 
 html {
+  
   block-size: 100%;
 }
 
@@ -61,10 +62,15 @@ a {
   bottom: 20px;
 }
 
-@media (width < 768px) and (width >= 375px) {
+@media (max-width:767px) {
   .decorated-zone::before {
     left: 10px;
     bottom: 17px;
+  }
+
+  .decorated-zone::after {
+    right: 10px;
+    top: 10px;
   }
 }
 
@@ -77,13 +83,6 @@ a {
   border-top: 1px solid var(--corners-color);
   right: 20px;
   top: 20px;
-}
-
-@media (width < 768px) and (width >= 375px) {
-  .decorated-zone::after {
-    right: 10px;
-    top: 10px;
-  }
 }
 
 .title-decor {
