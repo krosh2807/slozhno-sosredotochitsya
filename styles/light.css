@@ -18,4 +18,5 @@
   --corners-color: var(--main-text-color);
   --link-shadow: var(--title-color);
   --rec-color: var(--title-shadow);
+  --rec-visible: none;
 }
