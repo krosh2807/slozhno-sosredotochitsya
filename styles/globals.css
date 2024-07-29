@@ -10,9 +10,10 @@ html {
 
 body {
   background-image: var(--background-image);
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat; 
   background-size: cover;
-  background-repeat: no-repeat;
   background-color: var(--background-color);
   color: var(--main-text-color);
   font-family: var(--font-family);
@@ -21,7 +22,6 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1024px;
   margin: 0 auto;
-  block-size: 100%;
 }
 
 h1,
