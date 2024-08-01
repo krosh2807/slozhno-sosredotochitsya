@@ -87,6 +87,7 @@
 
 .title-decor {
   background: var(--title-decor);
+  color: var(--subtitle-text-color);
 }
 
 .main {
